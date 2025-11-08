@@ -1,0 +1,42 @@
+{
+  "default": {
+    "categories": [
+      "Fraude",
+      "Assédio",
+      "Discriminação",
+      "Corrupção",
+      "Outros"
+    ],
+    "flows": [
+      "novo",
+      "triagem",
+      "em_investigacao",
+      "acao",
+      "encerrado",
+      "followup"
+    ],
+    "theme": {
+      "primaryColor": "#1e40af",
+      "secondaryColor": "#10b981"
+    },
+    "languages": ["pt", "en", "es"],
+    "forms": {
+      "denunciante": [
+        { "id": "title", "labelKey": "caseTitle", "type": "text", "required": true },
+        { "id": "description", "labelKey": "caseDescription", "type": "textarea", "required": true },
+        { "id": "category", "labelKey": "category", "type": "select", "options": "categories", "required": true },
+        { "id": "anonymous", "labelKey": "anonymous", "type": "checkbox", "required": false }
+      ],
+      "vitima": [
+        { "id": "incidentDate", "labelKey": "incidentDate", "type": "date", "required": true },
+        { "id": "location", "labelKey": "location", "type": "text", "required": true },
+        { "id": "harmDescription", "labelKey": "harmDescription", "type": "textarea", "required": true },
+        { "id": "evidence", "labelKey": "evidence", "type": "file", "required": false }
+      ],
+      "consultor": [
+        { "id": "caseId", "labelKey": "caseId", "type": "text", "required": true },
+        { "id": "observation", "labelKey": "observation", "type": "textarea", "required": true }
+      ]
+    }
+  }
+}
