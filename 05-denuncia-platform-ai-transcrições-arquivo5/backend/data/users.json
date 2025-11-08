@@ -1,0 +1,35 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "tenantId": "default",
+    "name": "Administrador",
+    "email": "admin@example.com",
+    "password": "admin123",
+    "role": "admin"
+  }
+  ,
+  {
+    "id": "00000000-0000-0000-0000-000000000002",
+    "tenantId": "default",
+    "name": "Diretor",
+    "email": "diretor@example.com",
+    "password": "diretor123",
+    "role": "ceo"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000003",
+    "tenantId": "default",
+    "name": "Triagem",
+    "email": "triagem@example.com",
+    "password": "triagem123",
+    "role": "triage"
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000004",
+    "tenantId": "default",
+    "name": "Investigador",
+    "email": "investigador@example.com",
+    "password": "invest123",
+    "role": "investigator"
+  }
+]
