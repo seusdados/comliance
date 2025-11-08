@@ -1,0 +1,16 @@
+{
+  "name": "denuncia-backend",
+  "version": "1.0.0",
+  "description": "API para o canal de denúncias, com suporte a multi‑tenants, autenticação e gestão de casos.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  }
+}
